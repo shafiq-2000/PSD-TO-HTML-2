@@ -1,0 +1,42 @@
+/* medium layout: 1280px  */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    
+}
+
+/* Tablet layout: 768px  */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .header__content p br{
+        display: none;
+    }
+    .header__content h1{
+        font-size: 40px;
+    }
+    .count__item h3{
+        font-size: 20px;
+    }
+    .count__item h4{
+        font-size: 15px;
+    }
+}
+/* Mobile layout: 320px  */
+@media only screen and (max-width: 767px){
+    .footer__social, .copyright{
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .header__content h1{
+        font-size: 30px;
+    }
+}
+
+/* wide mobile layout: 480px  */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+   
+    .about__us__content h3 {
+        font-size: 28px;
+    }
+    .testimonial__content p br{
+        display: none;
+    }
+    
+}
